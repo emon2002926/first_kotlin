@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.Class.practice.ActivityCardList">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="30dp"
+        android:id="@+id/card"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/darkTangerine"
+                android:textSize="27sp"
+                android:id="@+id/topTv"
+                android:textAlignment="textStart"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:text="Business Card's  "
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/first_card_layout"/>
+
+        <include
+            layout="@layout/second_card_layout"/>
+
+        <include
+            layout="@layout/card_two_layout"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+
+</LinearLayout>

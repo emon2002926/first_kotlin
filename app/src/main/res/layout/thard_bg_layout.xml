@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/thard_bg"
+    android:layout_marginTop="20dp"
+    android:layout_height="250dp">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lilita_one"
+            android:text="pitch deck
+presentation"
+            android:gravity="center"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/white"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thynk Unlimited"
+            android:textColor="#CAFFFFFF"
+            android:layout_marginTop="20dp"
+            android:gravity="end"
+            android:fontFamily="@font/lilita_one"
+            android:layout_marginBottom="8dp"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/pt_sans"
+            android:gravity="end"
+            android:text="Presentations are communication tools that can be used as demonstrations."
+            android:textColor="#CAFFFFFF"
+            android:paddingEnd="5dp"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
